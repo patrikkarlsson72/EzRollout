@@ -1,0 +1,27 @@
+Start all chats with 🤖
+
+## Stack
+- Python
+- FastAPI
+- Microsoft Graph API
+- SQLite
+- Pandas
+- OpenPyXL
+- GPT-4 API
+- streamlit
+
+
+## Commit Messages
+- When you finish applying changes, the last line of the message should "Don't forget to commit!" and give me a commit command as well.
+- Always prefix Commit Messages in the following way. No exceptions!
+
+**Examples:**
+- `Feat(component): add new component`
+- `Fix(api): fix api error`
+- `Docs(readme): update readme`
+- `Refactor(utils): refactor utils`
+- `Style(tailwind): add new tailwind class`
+- `Test(unit): add unit test`
+- `Chore(deps): update dependencies`
+
+

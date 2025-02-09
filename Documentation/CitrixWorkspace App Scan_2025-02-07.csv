@@ -1,0 +1,31 @@
+"CRQ000000295025/INC000008758203 -Upgrade Rollout of APPID:17492 Citrix Workspace 2402
+COM-Citrix-CitrixWorkspaceCU1-x86-2402-MUI
+Entra Group :z_azu_app_com_citrix_citrixworkspacecu1_x86_2402_mui_appid_17492_av
+Rollout List created on 07.02.2025";;
+;;
+"Upgrade Information
+APPID:16742 Citrix Workspace 2203
+Entra Group : z_azu_app_com_citrix_citrixworkspace_x86_22.0.3_mui_appid_16742_av_RETIRED";;
+;;
+;;
+;;
+ProductName & Version;Device Count;APPID
+Citrix Workspace 1912;;
+19.12.1000.1063;1;Manual Install
+19.12.7000.10;1;Manual Install
+Citrix Workspace 2203;;
+22.3.5000.5107;14;APPID:16742
+Citrix Workspace 2402;;
+24.2.0.172;1;Manual Install
+24.2.1000.1016;514;APPID:17492
+24.2.1001.2;1;Manual Install
+Citrix Workspace 2409;;
+24.9.10.28;1;Manual Install
+Grand Total;533;
+Comments/Instructions;;
+"@Post Rollout team: Please upgrade previous version or manual install which are marked in yellow colour.
+
+@Software Center: Please update the subscription for machines which are marked in green colour.";;
+;;
+;;
+@Reporting: Error counts: - 11;;
