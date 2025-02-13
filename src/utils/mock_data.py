@@ -23,6 +23,8 @@ def generate_mock_devices(num_devices=50):
             "shortVersion": "16.0",
             "installState": random.choices(install_states, weights=install_weights)[0],
             "applicationKey": "O365ProPlus",
+            "addedDate": (datetime.now() - timedelta(days=1)).isoformat(),
+            "entraGroups": ["All Users", "Office Users", "Knowledge Workers"]
         },
         {
             "id": "12346",
@@ -33,6 +35,8 @@ def generate_mock_devices(num_devices=50):
             "shortVersion": "1.6",
             "installState": random.choices(install_states, weights=install_weights)[0],
             "applicationKey": "MSTeams",
+            "addedDate": (datetime.now() - timedelta(days=2)).isoformat(),
+            "entraGroups": ["All Users", "Teams Users"]
         },
         {
             "id": "12347",
@@ -43,6 +47,8 @@ def generate_mock_devices(num_devices=50):
             "shortVersion": "23.0",
             "installState": random.choices(install_states, weights=install_weights)[0],
             "applicationKey": "AdobeReader",
+            "addedDate": (datetime.now() - timedelta(days=3)).isoformat(),
+            "entraGroups": ["All Users", "Office Users"]
         },
         {
             "id": "12348",
@@ -53,6 +59,8 @@ def generate_mock_devices(num_devices=50):
             "shortVersion": "5.9",
             "installState": random.choices(install_states, weights=install_weights)[0],
             "applicationKey": "CreativeCloud",
+            "addedDate": (datetime.now() - timedelta(days=4)).isoformat(),
+            "entraGroups": ["All Users", "Creative Workers"]
         },
         {
             "id": "12349",
@@ -63,6 +71,8 @@ def generate_mock_devices(num_devices=50):
             "shortVersion": "114.0",
             "installState": random.choices(install_states, weights=install_weights)[0],
             "applicationKey": "Chrome",
+            "addedDate": (datetime.now() - timedelta(days=5)).isoformat(),
+            "entraGroups": ["All Users", "Office Users"]
         },
         {
             "id": "12350",
@@ -73,6 +83,8 @@ def generate_mock_devices(num_devices=50):
             "shortVersion": "115.0",
             "installState": random.choices(install_states, weights=install_weights)[0],
             "applicationKey": "Firefox",
+            "addedDate": (datetime.now() - timedelta(days=6)).isoformat(),
+            "entraGroups": ["All Users", "Office Users"]
         },
         {
             "id": "12351",
@@ -83,6 +95,8 @@ def generate_mock_devices(num_devices=50):
             "shortVersion": "5.15",
             "installState": random.choices(install_states, weights=install_weights)[0],
             "applicationKey": "ZoomClient",
+            "addedDate": (datetime.now() - timedelta(days=7)).isoformat(),
+            "entraGroups": ["All Users", "Zoom Users"]
         },
         {
             "id": "12352",
@@ -93,6 +107,8 @@ def generate_mock_devices(num_devices=50):
             "shortVersion": "4.33",
             "installState": random.choices(install_states, weights=install_weights)[0],
             "applicationKey": "Slack",
+            "addedDate": (datetime.now() - timedelta(days=8)).isoformat(),
+            "entraGroups": ["All Users", "Slack Users"]
         }
     ]
     
